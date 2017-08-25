@@ -1,5 +1,5 @@
 * {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 #tester {
   position: absolute;
@@ -21,113 +21,52 @@
   margin: 0;
   padding: 0;
   overflow: hidden; }
-  #mbrtWrap .innerWrap {
-    position: relative;
-    float: left;
-    display: inline-block;
-    vertical-align: top;
-    zoom: 1;
-    /* Fix for IE7 */
-    *display: inline;
-    /* Fix for IE7 */
-    width: 50%;
-    height: 100%;
+  #mbrtWrap #innerWrap {
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     overflow: hidden; }
-  #mbrtWrap .leftWrap {
-    background-color: #b4ccbf;
-    -webkit-transition: all 1.4s cubic-bezier(0.3, 0.01, 0.15, 0.99);
-    -moz-transition: all 1.4s cubic-bezier(0.3, 0.01, 0.15, 0.99);
-    -ms-transition: all 1.4s cubic-bezier(0.3, 0.01, 0.15, 0.99);
-    -o-transition: all 1.4s cubic-bezier(0.3, 0.01, 0.15, 0.99);
-    transition: all 1.4s cubic-bezier(0.3, 0.01, 0.15, 0.99);
-    -webkit-transform-origin: left;
-    -moz-transform-origin: left;
-    -ms-transform-origin: left;
-    -o-transform-origin: left;
-    transform-origin: left; }
-    #mbrtWrap .leftWrap .textWrap {
-      position: absolute;
-      width: 364px;
-      height: 214px;
-      margin: auto;
-      top: 0;
-      bottom: 12px;
-      left: 14.82%; }
-      #mbrtWrap .leftWrap .textWrap .upCase {
-        text-transform: uppercase; }
-        #mbrtWrap .leftWrap .textWrap .upCase span {
-          -webkit-transition: all 0.8s ease-out;
-          -moz-transition: all 0.8s ease-out;
-          -ms-transition: all 0.8s ease-out;
-          -o-transition: all 0.8s ease-out;
-          transition: all 0.8s ease-out; }
-      #mbrtWrap .leftWrap .textWrap .title {
-        color: #ffffff;
-        margin-top: 0;
-        margin-bottom: 50px;
-        width: 100%;
-        height: 122px;
-        line-height: 43px;
-        letter-spacing: 12px;
-        font-size: 35px;
-        font-weight: 500; }
-      #mbrtWrap .leftWrap .textWrap .subtitle {
-        color: #1d1d1b;
+    #mbrtWrap #innerWrap div {
+      position: relative;
+      position: relative;
+      float: left;
+      display: inline-block;
+      vertical-align: top;
+      zoom: 1;
+      /* Fix for IE7 */
+      *display: inline;
+      /* Fix for IE7 */
+      width: 100%;
+      text-align: center; }
+      #mbrtWrap #innerWrap div h1, #mbrtWrap #innerWrap div h2 {
         margin: 0;
-        width: 100%;
-        height: 42px;
-        line-height: 21px;
-        letter-spacing: 5px;
-        font-size: 17px;
-        font-weight: 700; }
-        #mbrtWrap .leftWrap .textWrap .subtitle span {
-          -webkit-transition: all 0.8s ease-out;
-          -moz-transition: all 0.8s ease-out;
-          -ms-transition: all 0.8s ease-out;
-          -o-transition: all 0.8s ease-out;
-          transition: all 0.8s ease-out; }
-        #mbrtWrap .leftWrap .textWrap .subtitle a {
-          text-decoration: none;
-          color: #1d1d1b;
-          -webkit-transition: all 0.8s ease-out;
-          -moz-transition: all 0.8s ease-out;
-          -ms-transition: all 0.8s ease-out;
-          -o-transition: all 0.8s ease-out;
-          transition: all 0.8s ease-out; }
-  #mbrtWrap .rightWrap {
-    background-color: #ffffff; }
-    #mbrtWrap .rightWrap div {
-      position: absolute; }
-      #mbrtWrap .rightWrap div img {
-        width: 100%; }
-    #mbrtWrap .rightWrap .dbLeaf {
-      width: 244px;
-      height: 233px;
-      -webkit-transition: all 0.8s ease-out;
-      -moz-transition: all 0.8s ease-out;
-      -ms-transition: all 0.8s ease-out;
-      -o-transition: all 0.8s ease-out;
-      transition: all 0.8s ease-out; }
-    #mbrtWrap .rightWrap .topLeaf {
-      top: 0;
-      right: 0; }
-    #mbrtWrap .rightWrap .bottomLeaf {
-      bottom: 0;
-      left: 0; }
-    #mbrtWrap .rightWrap .dbLogo {
-      z-index: 1000;
-      width: 190px;
-      height: 190px;
-      margin: auto;
-      top: 13px;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      -webkit-transition: all 0.8s ease-out;
-      -moz-transition: all 0.8s ease-out;
-      -ms-transition: all 0.8s ease-out;
-      -o-transition: all 0.8s ease-out;
-      transition: all 0.8s ease-out; }
+        -webkit-transition: all 0.8s ease-in-out;
+        -moz-transition: all 0.8s ease-in-out;
+        -ms-transition: all 0.8s ease-in-out;
+        -o-transition: all 0.8s ease-in-out;
+        transition: all 0.8s ease-in-out; }
+    #mbrtWrap #innerWrap .logoBox {
+      height: 70%;
+      font-family: Futura; }
+      #mbrtWrap #innerWrap .logoBox img {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-transition: all 0.8s ease-in-out;
+        -moz-transition: all 0.8s ease-in-out;
+        -ms-transition: all 0.8s ease-in-out;
+        -o-transition: all 0.8s ease-in-out;
+        transition: all 0.8s ease-in-out; }
+    #mbrtWrap #innerWrap .copyBox {
+      height: 30%;
+      text-transform: uppercase;
+      font-size: 20px; }
 
 .enterBg {
   -webkit-transform: scaleX(0);
@@ -205,7 +144,13 @@
     height: 85px; }
   #mbrtWrap .rightWrap .dbLeaf {
     width: 92px;
-    height: 87px; } }
+    height: 87px; }
+  #mbrtWrap #innerWrap {
+    height: 230px; }
+    #mbrtWrap #innerWrap .logoBox img {
+      width: 60%; }
+    #mbrtWrap #innerWrap .copyBox {
+      font-size: 12px; } }
 @media only screen and (max-width: 767px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   #mbrtWrap {
     min-width: 420px; } }

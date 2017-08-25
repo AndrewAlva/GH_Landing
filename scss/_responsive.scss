@@ -111,6 +111,20 @@
 				height: 87px;
 			}
 		}
+
+		#innerWrap{
+			height: 230px;
+
+			.logoBox{
+				img{
+					width: 60%;
+				}
+			}
+
+			.copyBox{
+				font-size: 12px;
+			}
+		}
 	}
 }
 

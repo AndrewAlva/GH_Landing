@@ -1,7 +1,10 @@
 // Start Font Inserting
 
-@font-face{
-	font-family: 'Gotham';
-	src: url ('../fonts/GOTHAM-BOLD.woff2');
-	src: url ('../fonts/GOTHAM-BOLD.otf');
+
+@font-face {
+	font-family: "Dense";
+	src: url("fonts/Dense-Regular.otf");
+	src: 
+	url("fonts/dense-regular-webfont.woff") format("woff"),
+	url("fonts/dense-regular-webfont.woff2") format("woff");
 }

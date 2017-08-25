@@ -1,16 +1,8 @@
 $(document).ready(function() {
-	
-	setTimeout(function(){
-		$('.leftWrap').removeClass('enterBg');
-
+	$('.animateObj').each(function(index, el) {
 		setTimeout(function(){
-			$('.animateObj').each(function(index, el) {
-				setTimeout(function(){
-					$(el).removeClass('animateObj');
-				}, (index * 150));
-			});
-		}, 1600);
-
-	}, 500);
+			$(el).removeClass('animateObj');
+		}, (index * 150));
+	});
 	
 });
